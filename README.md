@@ -3,7 +3,7 @@
 This repository contains all the R codes and data used in the project to predict whether genetic variants have **conflicting clinical significance** using allele frequency features, functional annotations, and predictive scoring features.
 The dataset is derived from **ClinVar** and contains 65,188 genetic variants with 46 features.
 
-**Project Overview**
+## **Project Overview**
 
 ClinVar provides clinical significance classifications on a five-point scale:
 
@@ -16,12 +16,12 @@ ClinVar provides clinical significance classifications on a five-point scale:
 Our goal is to build machine-learning models that classify whether a variant has **conflicting pathogenicity**.
 
 
-**Objective**
+## **Objective**
 **Predict whether a variant is “conflicting” (1) or “non-conflicting” (0)**  
 —using interpretable biological and computational features.
 
 
-**Features Used**
+## **Features Used**
 
 ### **Allele Frequency Features**
 - `AF_ESP`
